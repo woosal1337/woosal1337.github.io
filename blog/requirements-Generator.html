@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="Name of your web site">
+<meta name="author" content="Marketify">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>1337</title>
+
+<!-- STYLES -->
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/plugins.css" />
+<link rel="stylesheet" type="text/css" href="css/mycolors.css" />
+<link rel="stylesheet" type="text/css" href="css/darkMode.css" />
+<link rel="stylesheet" type="text/css" href="css/rtl.css" />
+<link rel="stylesheet" type="text/css" href="css/mycss.css" />
+<link rel="stylesheet" href="codebox.css">
+<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+<!-- /STYLES -->
+
+<link rel="shortcut icon" type="image/png" href="/img/logo/w.png">
+
+</head>
+
+<body class="dark"> <!-- FOR DARK MODE: Add class "dark" Example: <body class="dark">  FOR RTL MODE: Add class "rtl" Example: <body class="rtl"> -->
+	
+	<script>
+		function MovingTitle(writeText, interval, visibleLetters) {
+			let _instance = {};
+	
+			let _currId = 0,
+				_numberOfLetters = writeText.length;
+	
+			function updateTitle() {
+				_currId += 1;
+				if (_currId > _numberOfLetters - 1) {
+					_currId = 0;
+				}
+	
+				let startId = _currId,
+					endId = startId + visibleLetters,
+					finalText;
+	
+				if (endId < _numberOfLetters - 1) {
+					finalText = writeText.substring(startId, endId);
+				} else {
+					let cappedEndId = _numberOfLetters;
+					endId = endId - cappedEndId;
+	
+					finalText = writeText.substring(startId, cappedEndId) + writeText.substring(0, endId);
+				}
+	
+				document.title = finalText;
+			}
+	
+			_instance.init = function () {
+				setInterval(updateTitle, interval);
+			};
+	
+			return _instance;
+		}
+	
+		let title = new MovingTitle(' 1337 ', 333, 20);
+		title.init();
+	</script>
+	
+
+	<!-- PRELOADER -->
+	<div class="waxon_tm_preloader">
+		<div class="spinner_wrap">
+			<div class="spinner"></div>
+		</div>
+	</div>
+	<!-- /PRELOADER -->
+
+<!-- WRAPPER ALL -->
+<div class="waxon_tm_all_wrap" data-magic-cursor="" data-color="crimson">
+	
+	<!-- MAGIC CURSOR VALUES: "", hide -->
+	<!-- COLOR VALUES: blue, green, brown, pink, orange, black, white, purple, sky, cadetBlue, crimson, olive, red -->
+	
+	<!-- TOPBAR -->
+	<div class="waxon_tm_topbar extra">
+		<div class="container">
+			<div class="topbar_inner">
+				<div class="logo">
+					<a href="../index.html">
+						<img class="light" src="img/logo/logo.png" alt="" />
+						<img class="dark" src="img/logo/dark.png" alt="" />
+					</a>
+				</div>
+				<div class="menu">
+					<div class="links">
+						<ul class="anchor_nav">
+							<li>
+								<a href="../index.html">
+									<span class="first">Home</span>
+									<span class="second">Home</span>	
+								</a>
+							</li>
+							<li>
+								<a href="../index.html#about">
+									<span class="first">About</span>
+									<span class="second">About</span>	
+								</a>
+							</li>
+							<li>
+								<a href="../index.html#portfolio">
+									<span class="first">Portfolio</span>
+									<span class="second">Portfolio</span>	
+								</a>
+							</li>
+							<li>
+								<a href="../index.html#news">
+									<span class="first">News</span>
+									<span class="second">News</span>	
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /TOPBAR -->
+	
+	<!-- MOBILE MENU -->
+	<div class="waxon_tm_mobile_menu">
+		<div class="topbar_inner">
+			<div class="container bigger">
+				<div class="topbar_in">
+					<div class="logo">
+						<a href="#"><img src="img/logo/dark.png" alt="" /></a>
+					</div>
+					<div class="my_trigger">
+						<div class="hamburger hamburger--collapse-r">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="dropdown">
+			<div class="container">
+				<div class="dropdown_inner">
+					<ul class="anchor_nav">
+						<li><a href="../index.html#home">Home</a></li>
+						<li><a href="../index.html#about">About</a></li>
+						<li><a href="../index.html#portfolio">Portfolio</a></li>
+						<li><a href="../index.html#news">News</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /MOBILE MENU -->
+	
+	<div class="waxon_tm_blog_single">
+		<div class="hero classic">
+			<div class="image" data-img-url="requirementsGenerator/background.png"></div>
+		</div>
+		<div class="container bigger">
+			<div class="short_info">
+				<ul>
+					<li>
+						<div class="list_inner">
+							<img class="svg" src="img/svg/calendar.svg" alt="" />
+							<span>December 31, 2020</span>
+						</div>
+					</li>
+					<li>
+						<div class="list_inner">
+							<img class="svg" src="img/me/1.jpg" alt="" />
+							<span><a href="#">Vusal Ismayilov</a></span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="title">
+				<h3>requirements.txt Generator [Script]</h3>
+			</div>
+			<div class="main_infos">
+				<p><b>Whoever is into Python already knows that for the projects, which are usually shared by the public, on GitHub for instance, mostly include some general files, such as setup.py, Procfile, and of which being is the actual requirements.txt file, and this article will be about.
+                    </b></p>
+                
+                    <p><b>The title already says it all, a default requirements file for everybody, so with one click everybody can get the libraries, which were used in the projects of the others to be easily downloaded and installed with some commands through the terminal as following, for example:</b></p>
+                
+                    <blockquote>pip install -r requirements.txt (the path to the requirements.txt file)</blockquote>
+    
+                <p>or for Linux and MacOS</p>
+                <blockquote>pip3 install -r requirements.txt (the path to the requirements.txt file)</blockquote>
+                
+                <p>I was very curious about, what if the project is too big, that it takes a lot of time for the users to write down all the libraries one-by-one (considering the cases that virutal python environments are not created by the user, and the project specific libraries can not be extracted seperately) as tens to hundreds of different libraries were used? Or maybe just for the new users or contributors of that project who do not own all the needed/required libraries, is it possible for them to find all the libraries, which were used in the project with only one executable script?</p>
+
+                <p>My road starts here, and I have started thinking of an algorithm that would have the following features:</p>
+
+                <blockquote>
+                    <p>
+                        1) Will scan all the files/folders in the given project path
+                    </p>
+
+                    <p>
+                        2) Get all the .py extended files and save their names, so the imported custom written python files to the other python files are not cosnidered as seperate libraries
+                    </p>
+
+                    <p>
+                        3) Scan all the python files, and only save the lines where only “import” / “from” start the line itself
+                    </p>
+
+                    <p>
+                        4) Will not save the same library name more than once if that specific library was used more than once in the same project, however, in different python files
+                    </p>
+                </blockquote>
+                    
+                <p><b>Considering these would be enough points to start the project, and even in the further coming hours, I have noticed there is literally nothing really more needed besides the special cases, which would be better to be configured by the user if needed.</b></p>
+
+			<p><b>Features to come:</b></p>
+			<blockquote>
+				Current version of the script allows the users to prepare their data before annotating them. However, in the next version, script will also be ready to be easily used by the users on a ready to train data, where the script itself will also generate the label data of the given inputs by itself automatically, letting user only spend a few seconds on the generation, and then directly set on training.
+New image manipulation methods to increase the data as much as we can and more!
+			</blockquote>
+
+					<p>Source Code:</p>
+					<blockquote><li><a href="https://github.com/woosal1337/Generate-Dataset">https://github.com/woosal1337/Generate-Dataset</a></li></blockquote>
+
+					<p>Articles:</p>
+					<blockquote>
+					<li><a href="https://woosal1337.medium.com/generate-and-extend-your-custom-dataset-script-f44fe3767436">https://woosal1337.medium.com/generate-and-extend-your-custom-dataset-script-f44fe3767436</a></li>
+					<li><a href="https://dev.to/woosal/generate-and-extend-your-custom-dataset-script-3l0l">https://dev.to/woosal/generate-and-extend-your-custom-dataset-script-3l0l</a></li>
+				</blockquote>
+					<div class="tags">
+				<label>Tags:</label>
+				<ul>
+					<li><a href="#">Python</a></li>
+					<li><a href="#">Computer Vision</a></li>
+					<li><a href="#">Data</a></li>
+					<li><a href="#">Data Science</a></li>
+					<li><a href="#">Machine Learning</a></li>
+				</ul>
+			</div>
+	
+	<!-- COPYRIGHT -->
+		<!-- COPYRIGHT -->
+		<div class="waxon_tm_copyright">
+			<div class="container">
+				<div class="copyright_inner">
+					<ul>
+						<li class="wow fadeInDown" data-wow-duration="0.8s">
+							<span>Vusal Ismayilov</span>
+							<span>Student, Software Developer</span>
+						</li>
+						<li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s">
+							<span>Turkey,</span>
+							<span>Tuzla, Istanbul</span>
+						</li>
+						<li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.4s">
+							<span><a href="mailto:woosal@protonmail.com">woosal@protonmail.com</a></span>
+							<span><a href="tel:+90-539-574-00-62">+90 539 574 0062</a></span>
+						</li>
+						<li class="wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.6s">
+							<div class="social">
+								<ul>
+									<li>
+										<a href="https://github.com/woosal1337">
+											<span class="first"><img class="svg" src="img/svg/social/github.svg" alt="" /></span>
+											<span class="second"><img class="svg" src="img/svg/social/github.svg" alt="" /></span>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com/woosal1337/">
+											<span class="first"><img class="svg" src="img/svg/social/facebook.svg" alt="" /></span>
+											<span class="second"><img class="svg" src="img/svg/social/facebook.svg" alt="" /></span>
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/woosal1337">
+											<span class="first"><img class="svg" src="img/svg/social/twitter.svg" alt="" /></span>
+											<span class="second"><img class="svg" src="img/svg/social/twitter.svg" alt="" /></span>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/woosal1337/">
+											<span class="first"><img class="svg" src="img/svg/social/instagram.svg" alt="" /></span>
+											<span class="second"><img class="svg" src="img/svg/social/instagram.svg" alt="" /></span>
+										</a>
+									</li>
+									<li>
+										<a href="https://open.spotify.com/user/3pd70lv4jpyjbjxjfgysx3pzl?si=iEebRiOgSFyvY0iBXRZg1Q">
+											<span class="first"><img class="svg" src="img/svg/social/spotify.svg" alt="" /></span>
+											<span class="second"><img class="svg" src="img/svg/social/spotify.svg" alt="" /></span>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/channel/UCyADzz0IgglMoCSHy6614_A">
+											<span class="first"><img class="svg" src="img/svg/social/youtube.svg" alt="" /></span>
+											<span class="second"><img class="svg" src="img/svg/social/youtube.svg" alt="" /></span>
+										</a>
+									</li>
+									<li>
+										<a href="https://vk.com/woosal">
+											<span class="first"><img class="svg" src="img/svg/social/vk.svg" alt="" /></span>
+											<span class="second"><img class="svg" src="img/svg/social/vk.svg" alt="" /></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- /COPYRIGHT -->
+		
+		<!-- CURSOR -->
+		<div class="mouse-cursor cursor-outer"></div>
+		<div class="mouse-cursor cursor-inner"></div>
+		<!-- /CURSOR -->
+			
+	</div>
+	<!-- / WRAPPER ALL -->
+		
+	<!-- SCRIPTS -->
+	<script src="js/jquery.js"></script>
+	<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
+	<script src="js/plugins.js"></script>
+		
+	
+	
+	<script src="js/customcode.js"></script>
+<!-- /SCRIPTS -->
+
+</body>
+</html>
