@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ac14b0-2480-4d02-9ff3-7f92f57a70ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/Data-Generator-Extender.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Data-Generator-Extender.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/Instagram-Tagging-COVID-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Instagram-Tagging-COVID-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/extendData.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/extendData.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/requirements-Generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/requirements-Generator.html" afterDir="false" />
-    </list>
+    <list default="true" id="d9ac14b0-2480-4d02-9ff3-7f92f57a70ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +37,7 @@
       <updated>1609326731170</updated>
       <workItem from="1609326733049" duration="87000" />
       <workItem from="1609326837205" duration="6963000" />
-      <workItem from="1609425235237" duration="252000" />
+      <workItem from="1609425235237" duration="386000" />
     </task>
     <servers />
   </component>

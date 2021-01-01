@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/woosal
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://woosal1337.me
+  * I am woosal (https://keybase.io/woosal) on keybase.
+  * I have a public key ASAd4qcLbIUVqMGKX8ibx6Ibn17D3vc0I30X-upT3VfoLAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120357ca846f73eee372853796f641f2776423081ad75cea359846d2a23c27d0a360a",
+      "host": "keybase.io",
+      "kid": "01201de2a70b6c8515a8c18a5fc89bc7a21b9f5ec3def734237d17faea53dd57e82c0a",
+      "uid": "692183cad5ef0356888d659ed29a8419",
+      "username": "woosal"
+    },
+    "merkle_root": {
+      "ctime": 1609489645,
+      "hash": "43d6e8ee5019fc75b879e959ae48a4a071c901adba721322bf2b1c2fba57cfd529640a16d63c6fb41c1eb7f62957dfc7ab2e8926dbe6c104f2c4abbd5a525d72",
+      "hash_meta": "dfa29aa31d9db27273349715f21bad2262dc343d32ee864d1c18fdd0476ea351",
+      "seqno": 18557118
+    },
+    "service": {
+      "entropy": "PMzYt0Uvw740WVhEoxXYJHWU",
+      "hostname": "woosal1337.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1609489715,
+  "expire_in": 504576000,
+  "prev": "019c9fdc3bc027b5945a460c6b0efb6601d554683a065ea62a995fe90c8c86c1",
+  "seqno": 52,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgHeKnC2yFFajBil/Im8eiG59ew973NCN9F/rqU91X6CwKp3BheWxvYWTESpcCNMQgAZyf3DvAJ7WUWkYMaw77ZgHVVGg6Bl6mKplf6QyMhsHEIIYrrnbg04ST/OnNIbN90WS4E/HFPbeC81JVphIn8BtLAgHCo3NpZ8RAx8LsBnfURsnpEWZPcm7DNJbGzOwFaIh1nMeieM7Is2fi18D71givsqPqAsT5ThSPqqa5LvNbVhU6cFw8ipCAAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHVKABXCndJaVBuXwDXL4BihV6w3cEs/7a3L9EE0WOQGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/woosal
+
+==================================================================
